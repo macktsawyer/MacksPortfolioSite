@@ -1,0 +1,27 @@
+body {
+    background-color: #192631;
+}
+
+#fullPage {
+    margin: none;
+}
+
+#header {
+    background-color: #0F1922;
+    color: white;
+    width: 80%;
+    height: 120px;
+    margin-top: none;
+    position: relative;
+    border: white solid;
+    border-bottom: none;
+}
+
+#mainBody {
+    background-color: #253441;
+    width: 80%;
+    margin: none;
+    position: relative;
+    color: white;
+    border: white solid;
+}
