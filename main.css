@@ -13,7 +13,7 @@ body {
     height: 120px;
     margin-top: none;
     position: relative;
-    border: white solid;
+    border: white 1px solid;
     border-bottom: none;
 }
 
@@ -23,5 +23,45 @@ body {
     margin: none;
     position: relative;
     color: white;
-    border: white solid;
+    border: white 1px solid;
+}
+
+#aboutMe {
+    padding-top: 20px;
+}
+
+#aboutMeBox {
+    background-color: grey;
+    border: white 1px solid;
+    color: black;
+}
+
+#projects {
+    padding-top: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(17, 17, 17);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.card-img-top {
+    background-color: grey;
+}
+
+.card-body {
+    background-color: rgba(17, 17, 17);
+}
+
+#cardButton {
+    background-color: grey;
+    border: white;
+}
+
+#links {
+    padding-top: 20px;
 }
