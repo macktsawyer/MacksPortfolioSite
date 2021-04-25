@@ -57,11 +57,36 @@ body {
     background-color: rgba(17, 17, 17);
 }
 
-#cardButton {
+#cardButtonOne {
+    background-color: grey;
+    border: white;
+}
+
+#cardButtonTwo {
+    background-color: grey;
+    border: white;
+}
+
+#cardButtonThree {
     background-color: grey;
     border: white;
 }
 
 #links {
     padding-top: 20px;
+}
+
+#gitHubLogo {
+    height: 50px;
+    width: 50px;
+}
+
+#codeWarsLogo {
+    height: 50px;
+    width: 50px;
+}
+
+#linkedInLogo {
+    height: 50px;
+    width: 50px;
 }
