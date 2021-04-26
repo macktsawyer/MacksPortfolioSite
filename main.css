@@ -20,6 +20,7 @@ body {
 #mainBody {
     background-color: #253441;
     width: 80%;
+    height: 100vh;
     margin: none;
     position: relative;
     color: white;
@@ -34,6 +35,10 @@ body {
     background-color: grey;
     border: white 1px solid;
     color: black;
+}
+
+#aboutMeBox:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 #projects {
@@ -77,16 +82,16 @@ body {
 }
 
 #gitHubLogo {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
 
 #codeWarsLogo {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
 
 #linkedInLogo {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
