@@ -41,9 +41,9 @@ let createCircle = function(circle) {
 
 // Event Listener
 document.getElementById('canvas').addEventListener('click', function onClick(event) {
-        let canvasX = event.pageX - 470;      // Grab X, Y from Event Listener
+        let canvasX = event.pageX - 472;      // Grab X, Y from Event Listener
         let canvasY = event.pageY;
-        let my_circle = new Circle(canvasX, canvasY, 5, 'white');
+        let my_circle = new Circle(canvasX, canvasY, 2, 'white');
         user_circles.push(my_circle); // Store Circle
         createCircle(my_circle); // Create dot
         console.log(canvasX, canvasY);
