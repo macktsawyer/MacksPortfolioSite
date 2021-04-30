@@ -1,9 +1,11 @@
 body {
     background-color: #192631;
+    z-index: 1;
 }
 
 #fullPage {
     margin: none;
+    z-index: 1;
 }
 
 #header {
@@ -15,6 +17,7 @@ body {
     position: relative;
     border: white 1px solid;
     border-bottom: none;
+    z-index: 1;
 }
 
 #mainBody {
@@ -26,73 +29,126 @@ body {
     color: white;
     border: white 1px solid;
     box-shadow: 0 4px 8px 0 rgb(17, 17, 17);
+    z-index: 1;
 }
 
 #aboutMe {
     padding-top: 20px;
+    z-index: 1;
 }
 
 #aboutMeBox {
     background-color: #354d63;
     border: white 1px solid;
     color: black;
+    z-index: 1;
 }
 
 #aboutMeBox:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
 #projects {
     padding-top: 20px;
+    z-index: 1;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgb(17, 17, 17);
     transition: 0.3s;
+    z-index: 1;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
   }
 
 .card-img-top {
     background-color: grey;
+    z-index: 1;
 }
 
 .card-body {
     background-color: rgba(17, 17, 17);
+    z-index: 1;
 }
 
 #cardButtonOne {
     background-color: grey;
     border: white;
+    z-index: 1;
 }
 
 #cardButtonTwo {
     background-color: grey;
     border: white;
+    z-index: 1;
 }
 
 #cardButtonThree {
     background-color: grey;
     border: white;
+    z-index: 1;
+}
+
+#projectOnePopup {
+    height: 750px;
+    width: 750px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: white 1px solid;
+    z-index: 20;
+}
+
+#projectTwoPopup {
+    height: 750px;
+    width: 750px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: white 1px solid;
+    z-index: 20;
+}
+
+#projectThreePopup {
+    height: 750px;
+    width: 750px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: white 1px solid;
+    z-index: 20;
+}
+
+.hidden {
+    display: none;
 }
 
 #links {
     padding-top: 20px;
+    z-index: 1;
 }
 
 #gitHubLogo {
     height: 100px;
     width: 100px;
+    z-index: 1;
 }
 
 #codeWarsLogo {
     height: 100px;
     width: 100px;
+    z-index: 1;
 }
 
 #linkedInLogo {
     height: 80px;
     width: 80px;
+    z-index: 1;
 }
