@@ -25,6 +25,7 @@ body {
     position: relative;
     color: white;
     border: white 1px solid;
+    box-shadow: 0 4px 8px 0 rgb(17, 17, 17);
 }
 
 #aboutMe {
@@ -32,7 +33,7 @@ body {
 }
 
 #aboutMeBox {
-    background-color: grey;
+    background-color: #354d63;
     border: white 1px solid;
     color: black;
 }
@@ -93,5 +94,5 @@ body {
 
 #linkedInLogo {
     height: 80px;
-    width: 100px;
+    width: 80px;
 }
