@@ -15,7 +15,7 @@ body {
     height: 120px;
     margin-top: none;
     position: relative;
-    border: white 1px solid;
+    border: rgb(65, 102, 170) 1px solid;
     border-bottom: none;
     z-index: 1;
 }
@@ -26,8 +26,8 @@ body {
     height: 100vh;
     margin: none;
     position: relative;
-    color: white;
-    border: white 1px solid;
+    color: rgb(196, 215, 250);
+    border: rgb(65, 102, 170) 1px solid;
     box-shadow: 0 4px 8px 0 rgb(17, 17, 17);
     z-index: 1;
 }
@@ -39,7 +39,7 @@ body {
 
 #aboutMeBox {
     background-color: #354d63;
-    border: white 1px solid;
+    border: rgb(65, 102, 170) 1px solid;
     color: black;
     z-index: 1;
 }
@@ -66,7 +66,7 @@ body {
   }
 
 .card-img-top {
-    background-color: grey;
+    background-color: rgb(65, 102, 170);
     z-index: 1;
 }
 
@@ -76,20 +76,20 @@ body {
 }
 
 #cardButtonOne {
-    background-color: grey;
-    border: white;
+    background-color: rgb(65, 102, 170);
+    border: rgb(65, 102, 170);
     z-index: 1;
 }
 
 #cardButtonTwo {
-    background-color: grey;
-    border: white;
+    background-color: rgb(65, 102, 170);
+    border: rgb(65, 102, 170);
     z-index: 1;
 }
 
 #cardButtonThree {
-    background-color: grey;
-    border: white;
+    background-color: rgb(65, 102, 170);
+    border: rgb(65, 102, 170);
     z-index: 1;
 }
 
@@ -100,7 +100,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: white 1px solid;
+    border: rgb(65, 102, 170) 1px solid;
     z-index: 20;
 }
 
@@ -111,7 +111,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: white 1px solid;
+    border: rgb(65, 102, 170) 1px solid;
     z-index: 20;
 }
 
@@ -122,7 +122,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: white 1px solid;
+    border: rgb(65, 102, 170) 1px solid;
     z-index: 20;
 }
 
