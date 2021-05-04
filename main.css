@@ -98,33 +98,42 @@ body {
     height: 750px;
     width: 750px;
     position: fixed;
+    border-radius: 5px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: rgb(65, 102, 170) 1px solid;
-    z-index: 20;
+    background-color: rgb(65, 102, 170);
+    z-index: 25;
+    display: none;
 }
 
 #projectTwoPopup {
     height: 750px;
     width: 750px;
     position: fixed;
+    border-radius: 5px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: rgb(65, 102, 170) 1px solid;
-    z-index: 20;
+    background-color: rgb(65, 102, 170);
+    z-index: 25;
+    display: none;
 }
 
 #projectThreePopup {
     height: 750px;
     width: 750px;
     position: fixed;
+    border-radius: 5px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: rgb(65, 102, 170) 1px solid;
-    z-index: 20;
+    background-color: rgb(65, 102, 170);
+    z-index: 25;
+    display: none;
 }
 
 .hidden {
@@ -152,4 +161,41 @@ body {
     height: 80px;
     width: 80px;
     z-index: 1;
+}
+
+.bg-modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    display: none;
+}
+
+#exitOneX {
+    font-size: 50px;
+    position: absolute;
+    right: 0px;
+    top: -30px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+#exitTwoX {
+    font-size: 75px;
+    position: absolute;
+    right: 0px;
+    top: -30px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+#exitThreeX {
+    font-size: 50px;
+    position: absolute;
+    right: 0px;
+    top: -30px;
+    transform: rotate(45deg);
+    cursor: pointer;
 }
