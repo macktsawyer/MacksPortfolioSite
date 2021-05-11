@@ -136,6 +136,7 @@ body {
 
 #links {
     padding-top: 20px;
+    padding-bottom: 50px;
     z-index: 1;
 }
 
@@ -157,6 +158,12 @@ body {
     z-index: 1;
 }
 
+#footer {
+    padding-top: 100;
+    position: flex;
+    z-index: 1;
+}
+
 .bg-modal {
     width: 100vw;
     height: 100vh;
@@ -170,7 +177,7 @@ body {
 #exitOneX {
     font-size: 80px;
     position: absolute;
-    color: white;
+    color: rgb(65, 102, 170);
     right: 0px;
     top: -35px;
     transform: rotate(45deg);
@@ -189,7 +196,7 @@ body {
 #exitTwoX {
     font-size: 80px;
     position: absolute;
-    color: white;
+    color: rgb(65, 102, 170);
     right: 0px;
     top: -35px;
     transform: rotate(45deg);
@@ -208,7 +215,7 @@ body {
 #exitThreeX {
     font-size: 80px;
     position: absolute;
-    color: white;
+    color: rgb(65, 102, 170);
     right: 0px;
     top: -35px;
     transform: rotate(45deg);
