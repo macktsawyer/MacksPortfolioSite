@@ -193,6 +193,11 @@ body {
     z-index: 1;
 }
 
+#popupOneText {
+    color: white;
+    z-index: 3;
+}
+
 #exitTwoX {
     font-size: 80px;
     position: absolute;
@@ -212,6 +217,11 @@ body {
     z-index: 1;
 }
 
+#popupTwoText {
+    color: white;
+    z-index: 3;
+}
+
 #exitThreeX {
     font-size: 80px;
     position: absolute;
@@ -221,6 +231,11 @@ body {
     transform: rotate(45deg);
     cursor: pointer;
     z-index: 2;
+}
+
+#popupThreeText {
+    color: white;
+    z-index: 3;
 }
 
 #largePopupPicThree {
