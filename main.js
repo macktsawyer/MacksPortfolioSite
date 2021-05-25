@@ -34,3 +34,8 @@ document.getElementById('exitThreeX').addEventListener('click', function() {
     document.querySelector('.bg-modal').style.display = 'none';
     document.querySelector('#projectThreePopup').style.display = 'none';
 });
+
+document.getElementById('backgroundModalMode').addEventListener('click', function(){
+    document.querySelector('.bg-modal').style.display = 'none';
+    document.querySelector('.popUp').style.display = 'none';
+});
