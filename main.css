@@ -32,7 +32,7 @@ body {
 #mainBody {
     background: linear-gradient(#1c2f3f, #0F1922 );
     width: 80%;
-    height: 100vh;
+    height: 100%;
     margin: none;
     position: relative;
     color: rgb(196, 215, 250);
@@ -63,6 +63,10 @@ body {
     margin-top: 50px;
     padding-top: 20px;
     z-index: 1;
+}
+
+#row {
+    display: flex;
 }
 
 .card {
@@ -329,17 +333,16 @@ body {
     display: none;
 }
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
     #full-page {
         display: flex;
     }
 
-    [id*="projects"] {
-        width: 500px;
-        display: flex;
-        align-items: center;
+    #row {
         flex-direction: column;
-        padding: 100px;
     }
 
+    .card {
+        margin: 10px;
+    }
 }
