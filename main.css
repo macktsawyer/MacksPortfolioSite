@@ -180,12 +180,6 @@ body {
     z-index: 1;
 }
 
-#footer {
-    padding-top: 100;
-    position: flex;
-    z-index: 1;
-}
-
 .bg-modal {
     width: 100vw;
     height: 100vh;
