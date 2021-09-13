@@ -248,6 +248,11 @@ body {
     z-index: 3;
 }
 
+#popupTwoDescription {
+    padding-top: 20px;
+    width: 95%;
+}
+
 #popupTwoButtons {
     color:black;
 }
@@ -269,6 +274,11 @@ body {
     height: 60%;
     transform: translate(1%, 68%);
     z-index: 3;
+}
+
+#popupThreeDescription {
+    padding-top: 20px;
+    width: 95%;
 }
 
 #largePopupPicThree {
